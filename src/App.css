@@ -1,0 +1,43 @@
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.navbar, .container {
+  width: 1550px;
+}
+
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+.MSG{
+  background-color: rgb(34, 226, 24) ;
+  display: inline;
+ border-style: solid;
+ border-width: 2px;
+ border-color: rgb(11, 11, 26);
+  border-radius: 5px;
+
+}
+input, textarea, select {
+  width: 100px; /* Make sure input fields are responsive */
+}
+ 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}
